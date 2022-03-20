@@ -1,0 +1,11 @@
+{% macro render(opts) %}
+	<div class="box-text">
+		<div class="box-text__cirkle box-text__cirkle--{{opts.id}} "></div>
+    <div class="box-text__headLine">
+		    <h3>{{opts.title}}</h3>
+    </div>
+    <div class="box-text__content">
+	    	<p>{{opts.description}}</p>
+    </div>
+	</div>
+{% endmacro %}

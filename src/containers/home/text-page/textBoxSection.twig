@@ -1,0 +1,13 @@
+{% import "../../../shared/textInfo/textInfo.twig" as textInfo %}
+<section class="page-section">
+		<div class="container">
+			<div class="row">
+				{% for item in textBoxSection.content %}
+					<div class="col-lg-3 col-md-6 col-xs-12 col-sm-6">
+						{{textInfo.render(item)}}
+					</div>
+				{% endfor %}
+
+			</div>
+		</div>
+</section>

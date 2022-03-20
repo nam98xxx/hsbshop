@@ -1,0 +1,36 @@
+{% import "../../../shared/quote/quote.twig" as quote %}
+{% import "../../../shared/textHead/textHead.twig" as textHead %}
+<section class="page-section">
+	<div class="container-sub">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12 ">
+          {{textHead.render(quoteSection.heading)}}
+			</div>
+		<div class="no-gutter col-lg-6">
+			<div class="slider-bg">
+				<div class="slider-bg__box">
+					<img src="./img/slider.png" alt="" class="slider-bg__img">
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 slider-box ">
+			<div class="quote">
+				<div class="cirkle-small">
+					<div class="cubes-small"></div>
+				</div>
+				<div class="quote-box ">
+					<div class="quote-box__text">
+						<p>
+              {{quoteSection.content.description}}
+						</p>
+					</div>
+					<div class="quote-box__name">
+						<span></span>
+						Dustin Barnes
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>

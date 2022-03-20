@@ -1,0 +1,14 @@
+{% macro render(content) %}
+	<div class="content-table">
+		<img src={{content.srcImg}} alt="pic" class = "content-table__img">
+		<div class="content-table__tickets">Design</div>
+		<div class="content-table__box">
+      <div class="content-table__text">
+			    <h4>{{content.title}}</h4>
+      </div>
+      <div class="content-table__time">
+			    <p>{{content.text}}</p>
+      </div>
+		</div>
+	</div>
+{% endmacro %}

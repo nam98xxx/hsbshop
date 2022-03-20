@@ -1,0 +1,35 @@
+// content-pic
+.content-table {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px #dededebf;
+}
+.content-table__box {
+  padding: 12px;
+}
+.content-table__time p,
+.content-table__text h4 {
+    margin: unset;
+}
+.content-table__img  {
+    width: 100%;
+}
+.content-table__tickets {
+    position: absolute;
+    bottom: 49px;
+    transform: translateY(-50%);
+    left: 0;
+    background-color: #545CF0;
+    color: #ffff;
+    padding: 1px 10px;
+    width: 70px;
+    height: 26px;
+}
+.content-table__tickets::after {
+    content: " ";
+    position: absolute;
+    right: -10px;
+    bottom: 10px;
+    border-bottom: 16px solid #374398;
+    border-right: 10px solid transparent;
+}

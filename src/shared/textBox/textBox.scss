@@ -1,0 +1,70 @@
+
+.content-headline {
+  text-align: center;
+  span {
+      color: $colorTick;
+  }
+}
+.table {
+  width: 100%;
+  height: 100%;
+  background-color: $colorWhite;
+  border-radius: 15px;
+  padding: 24px;
+}
+.table__heading {
+  margin-top: 24px;
+}
+.content-headline__heading {
+  margin: unset;
+}
+.table__cirkle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  i {
+      font-size: 30px;
+  }
+}
+
+// css icon-cirkle
+  .table__cirkle--1 {
+      background-color: $cirkle-table1;
+      .table__icon--1 {
+          color: $icon-table1;
+      }
+  }
+  .table__cirkle--2 {
+      background-color: $cirkle-table2;
+      .table__icon--2 {
+          color: $icon-table2;
+      }
+  }
+  .table__cirkle--3 {
+      background-color: $cirkle-table3;
+      .table__icon--3 {
+          color: $icon-table3;
+      }
+  }
+  .table__cirkle--4 {
+      background-color: $cirkle-table4;
+      .table__icon--4 {
+          color: $icon-table4;
+      }
+  }
+  .table__cirkle--5 {
+      background-color: $cirkle-table5;
+      .table__icon--5 {
+          color: $icon-table5;
+      }
+  }
+  .table__cirkle--6 {
+      background-color: $cirkle-table6;
+      .table__icon--6 {
+          color: $icon-table6;
+      }
+  }

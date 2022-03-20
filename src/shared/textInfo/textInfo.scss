@@ -1,0 +1,43 @@
+.box-text {
+  position: relative;
+}
+.box-text__cirkle--1 {
+  background-color: $cirkle-one;
+}
+.box-text__cirkle--1:hover {
+  background-color: #daa4a4;
+}
+.box-text__cirkle--2 {
+  background-color: $cirkle-two;
+}
+.box-text__cirkle--2:hover {
+  background-color: #61cec9;
+}
+.box-text__cirkle--3 {
+  background-color: $cirkle-three;
+}
+.box-text__cirkle--3:hover {
+  background-color: #943de2;
+}
+.box-text__cirkle--4 {
+  background-color: $cirkle-four;
+}
+.box-text__cirkle--4:hover {
+  background-color: #3b75cb;
+}
+.box-text__headLine {
+  position: relative;
+  z-index: 1;
+}
+.box-text__content {
+  margin-top: 30px;
+}
+.box-text__cirkle {
+  position: absolute;
+  top: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  transition: 0.6s;
+}

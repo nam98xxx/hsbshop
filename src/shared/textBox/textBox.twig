@@ -1,0 +1,9 @@
+{% macro render(opts) %}
+	<div class="table">
+		<div class="table__cirkle table__cirkle--{{opts.id}}">
+			<i class="{{opts.icon}} table__icon--{{opts.id}}"></i>
+		</div>
+		<h4 class="table__heading">{{opts.title}}</h4>
+		<p class="table__text">{{opts.description}}</p>
+	</div>
+{% endmacro %}

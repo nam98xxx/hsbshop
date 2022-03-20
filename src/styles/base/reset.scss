@@ -1,0 +1,33 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --grid: 12;
+  --grid-container-width: 1200px;
+  --grid-container-gap: 15px;
+  --grid-col-gap-vertical: 30px;
+  --grid-col-gap-horizontal: 30px;
+}
+
+
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #111;
+}
+
